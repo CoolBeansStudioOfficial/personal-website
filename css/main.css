@@ -16,7 +16,7 @@ a {
     }
 
     a:visited {
-        color: light-dark(lightblue, lightblue);
+        color: light-dark(royalblue, lightblue);
     }
 
     a:hover {

@@ -1,0 +1,6 @@
+# Force correct serving for Unity .unityweb files
+*.unityweb binary
+*.data    binary
+*.wasm    binary
+*.js      text
+*.json    text

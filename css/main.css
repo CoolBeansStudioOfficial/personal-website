@@ -30,6 +30,10 @@ body {
     margin-right: 5px;
 }
 
+    .logo:hover {
+        color: black;
+    }
+
 .starting-spacer {
     height: 60px;
 }

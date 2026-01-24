@@ -37,16 +37,25 @@ body {
 .section {
     display: flex;
     flex-wrap: nowrap;
-
-    background: light-dark(rgba(10, 10, 10, 0), rgba(10, 10, 10, .6));
+    width: fit-content;
+    background-color: light-dark(rgba(10, 10, 10, .1), rgba(10, 10, 10, .8));
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .section-details {
-    flex-shrink: 4;
-    margin: 10px;
-    height: 100%;
+    max-width: 250px;
+    margin-left: 10px;
+    padding: 5px;
+    height: auto;
+    /* Color/tint overlay + Opacity */
+    background: light-dark(rgba(10, 10, 10, 0), rgba(10, 10, 10, .6));
+    /* Tiled noise texture */
+    background-image: url("/images/acrylicsmooth.png");
+    background-repeat: repeat;
+    border-radius: 10px;
 }
 
 .top-bar {

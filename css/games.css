@@ -1,5 +1,21 @@
-.game-iframe {
-	background-color: transparent;
+.washening-placeholder {
+	width: 960px;
+	height: 540px;
+	border-radius: 10px;
+	background-size: cover;
+	background-image: url("/images/washeningpreview.png");
+}
 
+.candydrop-placeholder {
+	width: 960px;
+	height: 540px;
+	border-radius: 10px;
+	background-size: cover;
+	background-image: url("/images/candydroppreview.png");
+}
+
+.game-iframe {
+	align-self: center;
+	background-color: transparent;
 	border-radius: 10px;
 }

@@ -1,10 +1,24 @@
+.all-games {
+}
+
 .washening-placeholder {
 	width: 960px;
 	height: 540px;
 	border-radius: 10px;
 	background-size: cover;
 	background-image: url("/images/washeningpreview.png");
+
+	animation-name: placeholderReturn;
+	animation-duration: 0.1s;
 }
+	.washening-placeholder:hover {
+		border-style: solid;
+		border-color: white;
+		border-width: 5px;
+
+		animation-name: placeholderHover;
+		animation-duration: 0.1s;
+	}
 
 .candydrop-placeholder {
 	width: 960px;
@@ -12,6 +26,46 @@
 	border-radius: 10px;
 	background-size: cover;
 	background-image: url("/images/candydroppreview.png");
+
+	animation-name: placeholderReturn;
+	animation-duration: 0.1s;
+}
+	.candydrop-placeholder:hover {
+		border-style: solid;
+		border-color: white;
+		border-width: 5px;
+
+		animation-name: placeholderHover;
+		animation-duration: 0.1s;
+	}
+
+@keyframes placeholderHover {
+	from {
+		border-style: solid;
+		border-color: transparent;
+		border-width: 0px;
+	}
+
+	to {
+		border-style: solid;
+		border-color: white;
+		border-width: 5px;
+	}
+}
+
+@keyframes placeholderReturn {
+	from {
+		border-style: solid;
+		border-color: white;
+		border-width: 5px;
+		
+	}
+
+	to {
+		border-style: solid;
+		border-color: transparent;
+		border-width: 0px;
+	}
 }
 
 .game-iframe {

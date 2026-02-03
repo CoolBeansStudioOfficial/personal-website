@@ -69,11 +69,17 @@
 	}
 }
 
-.game-iframe {
+.game-iframe-widescreen {
 	width: 640px;
 	height: 360px;
 	align-self: center;
 	aspect-ratio: 16/9;
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+.game-iframe-custom {
+	align-self: center;
 	background-color: transparent;
 	border-radius: 10px;
 }

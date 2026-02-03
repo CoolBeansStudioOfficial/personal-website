@@ -67,7 +67,7 @@ body {
 .section {
     display: flex;
     flex-wrap: nowrap;
-    width: fit-content;
+    width: 95%;
     background-color: light-dark(rgba(10, 10, 10, .1), rgba(10, 10, 10, .8));
     padding: 10px;
     border-radius: 20px;
@@ -76,7 +76,7 @@ body {
 }
 
 .section-details {
-    min-width: 200px;
+    min-width: 100px;
     max-width: 300px;
     margin-left: 10px;
     padding: 5px;

@@ -2,12 +2,13 @@
 }
 
 .washening-placeholder {
-	width: 960px;
-	height: 540px;
+	width: 640px;
+	height: 360px;
+	align-self: center;
+	aspect-ratio: 16/9;
 	border-radius: 10px;
 	background-size: cover;
 	background-image: url("/images/washeningpreview.png");
-
 	animation-name: placeholderReturn;
 	animation-duration: 0.1s;
 }
@@ -21,12 +22,13 @@
 	}
 
 .candydrop-placeholder {
-	width: 960px;
-	height: 540px;
+	width: 640px;
+	height: 360px;
+	align-self: center;
+	aspect-ratio: 16/9;
 	border-radius: 10px;
 	background-size: cover;
 	background-image: url("/images/candydroppreview.png");
-
 	animation-name: placeholderReturn;
 	animation-duration: 0.1s;
 }
@@ -58,7 +60,6 @@
 		border-style: solid;
 		border-color: white;
 		border-width: 5px;
-		
 	}
 
 	to {
@@ -69,7 +70,10 @@
 }
 
 .game-iframe {
+	width: 640px;
+	height: 360px;
 	align-self: center;
+	aspect-ratio: 16/9;
 	background-color: transparent;
 	border-radius: 10px;
 }

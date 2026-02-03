@@ -79,6 +79,7 @@
 }
 
 .game-iframe-custom {
+	min-width: 410px;
 	align-self: center;
 	background-color: transparent;
 	border-radius: 10px;

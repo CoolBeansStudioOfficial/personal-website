@@ -26,7 +26,7 @@ body {
     width: auto;
     height: 100%;
     object-fit: scale-down;
-    border-radius: 50%;
+    border-radius: 25%;
     margin-left: 5px;
     margin-right: 5px;
 
@@ -34,7 +34,7 @@ body {
     animation-duration: 0.1s;
 }
     .logo:hover {
-        border-radius: 25%;
+        border-radius: 50%;
 
         animation-name: logoHover;
         animation-duration: 0.1s;
@@ -42,21 +42,21 @@ body {
 
 @keyframes logoHover {
     from {
-        border-radius: 50%;
+        border-radius: 25%;
     }
 
     to {
-        border-radius: 25%;
+        border-radius: 50%;
     }
 }
 
 @keyframes logoReturn {
     from {
-        border-radius: 25%;
+        border-radius: 50%;
     }
 
     to {
-        border-radius: 50%;
+        border-radius: 25%;
     }
 }
 

@@ -1,1 +1,1 @@
-document.getElementById("mainTitle").innerHTML = "Welcome to the site, gamers"
+//document.getElementById("mainTitle").innerHTML = "Welcome to the site, gamers"

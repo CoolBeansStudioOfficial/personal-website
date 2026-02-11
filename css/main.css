@@ -76,6 +76,17 @@ body {
     margin-bottom: 30px;
 }
 
+.section-small {
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    background-color: light-dark(rgba(10, 10, 10, .1), rgba(10, 10, 10, .8));
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .section-details {
     min-width: 100px;
     margin-left: 10px;
@@ -164,15 +175,51 @@ body {
 }
 
 .mogged {
-    height: 50px;
+    height: 100px;
     aspect-ratio: 1/1;
+    align-self: center;
+    animation-name: moggedReturn;
+    animation-duration: 0.1s;
 }
     .mogged:hover {
-
+        height: 110px;
+        rotate: 2deg;
+        animation-name: moggedHover;
+        animation-duration: 0.5s;
     }
-    
-    .mogged:active {
 
+@keyframes moggedHover {
+    from {
+        height: 100px;
+        rotate: 0deg;
     }
+
+    33% {
+        height: 110px;
+        rotate: -7deg;
+    }
+
+    66% {
+        height: 105px;
+        rotate: 7deg;
+    }
+
+    to {
+        height: 110px;
+        rotate: 2deg;
+    }
+}
+
+@keyframes moggedReturn {
+    from {
+        height: 110px;
+        rotate: 2deg;
+    }
+
+    to {
+        height: 100px;
+        rotate: 0deg;
+    }
+}
 
 

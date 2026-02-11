@@ -61,15 +61,16 @@
 	align-self: center;
 	aspect-ratio: 16/9;
 	border-radius: 10px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent;
 	background-size: cover;
 	background-image: url("/images/washeningpreview.png");
 	animation-name: placeholderReturn;
 	animation-duration: 0.1s;
 }
 	.washening-placeholder:hover {
-		border-style: solid;
 		border-color: white;
-		border-width: 5px;
 
 		animation-name: placeholderHover;
 		animation-duration: 0.1s;
@@ -81,15 +82,16 @@
 	align-self: center;
 	aspect-ratio: 16/9;
 	border-radius: 10px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent;
 	background-size: cover;
 	background-image: url("/images/candydroppreview.png");
 	animation-name: placeholderReturn;
 	animation-duration: 0.1s;
 }
 	.candydrop-placeholder:hover {
-		border-style: solid;
 		border-color: white;
-		border-width: 5px;
 
 		animation-name: placeholderHover;
 		animation-duration: 0.1s;
@@ -97,28 +99,21 @@
 
 @keyframes placeholderHover {
 	from {
-		border-style: solid;
 		border-color: transparent;
-		border-width: 0px;
 	}
 
 	to {
-		border-style: solid;
 		border-color: white;
-		border-width: 5px;
 	}
 }
 
 @keyframes placeholderReturn {
 	from {
-		border-width: 0px;
-		border-style: solid;
 		border-color: white;
-		border-width: 5px;
+		
 	}
 
 	to {
-		border-style: solid;
 		border-color: transparent;
 	}
 }

@@ -1,1 +1,0 @@
-//document.getElementById("mainTitle").innerHTML = "Welcome to the site, gamers"
